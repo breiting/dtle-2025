@@ -9,7 +9,7 @@ datetime=$(date +"%Y-%m-%d_%H_%M")
 
 filename="${datetime}-${name}.tar.gz"
 
-tar -czf "$filename" ./gtest ./sense ./tests CMakeLists.txt
+tar -czf "$filename" ./gtest ./inc ./src ./tests CMakeLists.txt
 
 echo "Package created: $filename"
 echo "Please now upload this file to Moodle!"
