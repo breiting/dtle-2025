@@ -43,6 +43,7 @@ README.md
 ### Controller
 
 - Gets the `Led` and `Temperature` in the constructor
+- Also gets the `low` and `high` threshold via the constructor
 - Has an `Update` method which controls the `Led` according to the `Temperature` value
 
 ## Tests
